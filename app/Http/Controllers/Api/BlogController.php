@@ -17,8 +17,6 @@ class BlogController extends Controller
             "resultado" => $blog
         ], Response::HTTP_OK);
 
-
-
         return view('welcome', compact('blog'));
     }
 

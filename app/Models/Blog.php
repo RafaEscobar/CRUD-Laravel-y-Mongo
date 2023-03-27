@@ -11,5 +11,4 @@ class Blog extends Model
 
     protected $conection = 'mongodb';
 
-    
 }
